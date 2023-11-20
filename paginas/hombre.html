@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        h1 {
+            color: #dda90d;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #dda90d;
+        }
+
+        .categoria {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            color: #dda90d;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .shoe-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .shoe-images img {
+            width: calc(33.33% - 20px);
+            height: auto;
+            border: 1px solid #fff;
+            margin: 10px;
+            transition: transform 0.3s; 
+        }
+
+
+        .shoe-images img:nth-child(odd) {
+            border-color: #000;
+        }
+
+        .shoe-images img:nth-child(even) {
+            border-color: #dda90d;
+        }
+
+
+        .shoe-images img:hover {
+            transform: scale(1.8);
+        }
+    </style>
+    <script defer src="https://app.embed.im/snow.js"></script>
+</head>
+
+<body>
+    <h1>Hombre</h1>
+    <ul>
+        <li><a href="../página.html">Inicio</a></li>
+        <li><a href="https://www.instagram.com/cpstoregigante/">Contacto</a></li>
+    </ul>
+    <div class="categoria">
+        <h2>Hombre</h2>
+    </div>
+    <p>SECCIÓN HOMBRES</p>
+
+    <div class="shoe-images">
+        <img src="/PÁGINA/img/H/AF1.jpeg" alt="AIR FORCE 1">
+        <img src="/PÁGINA/img/H/AIRM.jpeg" alt="AIR MAX">
+        <img src="/PÁGINA/img/H/DUNKJ.jpeg" alt="DUNKJ">
+        <img src="/PÁGINA/img/H/DUNKJN.jpeg" alt="DUNKJN">
+        <img src="/PÁGINA/img/H/DUNKM.jpeg" alt="DUNKM">
+        <img src="/PÁGINA/img/H/DUNKPS.jpeg" alt="DUNKPS">
+        <img src="/PÁGINA/img/H/LV.jpeg" alt="LOUIS VUITTON">
+        <img src="/PÁGINA/img/H/JORDAN.jpeg" alt="JORDAN">
+        <img src="/PÁGINA/img/H/NBR.jpeg" alt="NEW BALANCE">
+    </div>
+</body>
+
+</html>
